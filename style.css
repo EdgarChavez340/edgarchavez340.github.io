@@ -92,5 +92,11 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 	color: white;
-	padding-top: 250px
+	padding-top: 80px
+}
+
+p {
+	color: lightgray;
+	font-size: 30px;
+	font-family: "Poppins",sans-serif;
 }
