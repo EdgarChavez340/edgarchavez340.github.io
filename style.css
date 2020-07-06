@@ -1,0 +1,7 @@
+h1 {
+	font-family: arial;
+	font-size: 60px;
+	text-align: right;
+	padding: 20px 0 180px 10px;
+	background: linear-gradient(-70deg, lightgray 30%, rgba(0, 0, 0, 0) 30%), url('https://www.hillsboroaviation.com/wp-content/uploads/2018/06/gorge-1200x800.jpg');
+}
