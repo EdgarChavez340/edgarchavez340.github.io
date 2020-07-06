@@ -1,7 +1,13 @@
-body {
-	background: black;
+.blackBg {
+	background-color: black;
+	color: white;
 }
 
 h1 {
-	color: white;
+	padding: 30px 0 40px 10px;
+	text-align: center;
+}
+
+b {
+	color: lightgreen
 }
