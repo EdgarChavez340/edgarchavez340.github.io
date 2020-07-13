@@ -53,15 +53,17 @@
 
 
 .header-alt {
-	background-color: rgba(255, 255, 255);
+	background-color: lightgray;
 	font-size: 30px;
 	text-align: center;
 	position: sticky;
     top: 0;
+    border-radius: 0 0 20px 20px;
+    border-bottom: 5px solid darkgray;
 }
 
 button {
-	padding: 6px 17px;
+	padding: 4px 17px;
 	margin: 5px 0;
 	background-color: #6a4585;
 	color: white;
