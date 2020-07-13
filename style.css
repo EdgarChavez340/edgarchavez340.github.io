@@ -48,7 +48,7 @@
 
 .textDivider {
 	color: purple;
-	font-size: 120px;
+	font-size: 80px;
 }
 
 
@@ -59,13 +59,6 @@
 	position: sticky;
     top: 0;
 }
-
-.textDivider-alt {
-	color: green;
-	font-size: 30px
-}
-
-
 
 
 
