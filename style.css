@@ -1,11 +1,11 @@
 body {
-	background-color: gray;
+	background-color: white;
 }
 
 .flexbox-container {
 	background: rgb(23,255,188);
 	background: linear-gradient(0deg, rgba(23,255,188,1) 0%, rgba(11,112,128,1) 100%);
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	/*height: 700px;*/
 	display: flex;
 	flex-wrap: wrap;
