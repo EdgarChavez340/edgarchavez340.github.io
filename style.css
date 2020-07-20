@@ -1,15 +1,23 @@
+body {
+	background-color: gray;
+}
+
 .flexbox-container {
-	height: 700px;
+	background: rgb(23,255,188);
+	background: linear-gradient(0deg, rgba(23,255,188,1) 0%, rgba(11,112,128,1) 100%);
+	margin-top: 30px;
+	/*height: 700px;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: space-between;
+	border-radius: 30px;
 }
 
 .flexbox-item {
 	width: 425px;
-	margin: 10px;
+	margin: 0px;
 	/*border: 3px solid #333;
 	background-color: #dfdfdf;*/
 }
@@ -18,12 +26,15 @@
 
 .flexbox-item-1 {
 	font-size: 40px;
-
+	padding: 10 
 }
 
 .flexbox-item-2 {
-	/*min-width: 300px;*/
+	background-color: white;
+	flex-grow: 3;
 	padding: 10px;
+	border-radius: 30px;
+	width: auto;
 }
 
 .flexbox-item-3 {
@@ -46,32 +57,6 @@
     top: 0;
 }
 
-.textDivider {
-	color: purple;
-	font-size: 80px;
-}
-
-
-.header-alt {
-	background-color: lightgray;
-	font-size: 30px;
-	text-align: center;
-	position: sticky;
-    top: 0;
-}
-
-button {
-	padding: 4px 17px;
-	margin: 5px 0;
-	background-color: #6a4585;
-	color: white;
-	font-size: 20px;
-	font-weight: 300;
-	border-radius: 30px;
-	border-bottom: 4px solid #483c52;
-}
-
-
 
 
 
@@ -90,7 +75,7 @@ button {
 @media only screen and (min-width: 640px)  {
 	.flexbox-item {
 		width: 45%;
-		max-width: 550px;
+		max-width: auto;
 	}
 
 	.homeHeading {
