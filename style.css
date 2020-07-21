@@ -6,14 +6,13 @@ body {
 	background: rgb(23,255,188);
 	background: linear-gradient(0deg, rgba(23,255,188,1) 0%, rgba(11,112,128,1) 100%);
 	/*margin-top: 30px;*/
-	height: 700px;
+	height: 800px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: space-between;
 	border-radius: 30px;
-	border-top: 6px solid black;
 }
 
 .flexbox-item {
@@ -36,8 +35,7 @@ body {
 	padding: 10px;
 	border-radius: 30px;
 	width: auto; 
-	
-	height: 700px;
+	height: 800px;
 }
 
 .flexbox-item-3 {
@@ -78,6 +76,7 @@ body {
 .social-icons {
 	margin-top: 40px;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 
@@ -98,6 +97,21 @@ i {
 		width: 45%;
 		max-width: auto;
 	}
+
+	.name-heading {
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-size: 50px;
+	}
+
+	.sub-heading {
+	text-align: center;
+	color: white;
+	font-weight: 200;
+	font-size: 30px
+    }
 
 	.flexbox-item-2 {
 		overflow-y: scroll;
