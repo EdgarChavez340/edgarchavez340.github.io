@@ -72,8 +72,14 @@ body {
 	font-weight: 200;
 }
 
+.social-icons {
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
+i {
+	padding: 20px
+}
 
 
 
