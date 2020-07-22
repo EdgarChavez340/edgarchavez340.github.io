@@ -97,14 +97,23 @@ i {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 50px;
+	font-weight: 200;
 	padding-left: 5%;
 }
 
 .p-container {
-	padding-left: 10%;
+	padding: 30px 0;
 }
 
+.content-aligner {
+	padding: 5px 15px;
+}
+
+.green-text {
+	color: #10b39c;
+	font-weight: 600;
+}
 
 @media only screen and (min-width: 640px)  {
 	.flexbox-item {
