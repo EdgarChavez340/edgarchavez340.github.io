@@ -146,6 +146,13 @@ h2 {
 	color: #10b39c;
 	font-weight: 600;
 }
+.purple-text {
+	color: purple;
+	font-weight: 600;
+}
+
+
+
 
 .active-page {
 	padding: 0 30px;
