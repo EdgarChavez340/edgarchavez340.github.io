@@ -60,6 +60,20 @@ body {
 
 }
 
+.feedback {
+  background-color : black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
 .fit {
 	display: block;
     width: 95%;
@@ -179,3 +193,11 @@ h2 {
 		text-align: center;
 	}
 }
+
+
+
+
+
+
+
+
