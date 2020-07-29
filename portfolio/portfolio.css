@@ -1,0 +1,53 @@
+.bg-img {
+   background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/115998586_1474283336092742_8900772289296977058_o.jpg?_nc_cat=101&_nc_sid=8bfeb9&_nc_ohc=xwwJnXkGO-sAX9Xo8wV&_nc_ht=scontent-sea1-1.xx&oh=963eb321116ee00483cb9926fe1c7be8&oe=5F463A80"); /* The image used */
+  background-color: #cccccc; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button.navbar-toggler {
+	border: 1px solid white;
+}
+
+.hero-heading {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 4rem;
+	color: white;
+	text-align: center;
+	padding-top: 15%;
+}
+
+.hero-subheading {
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 1.5rem
+}
+
+
+.card-1 {
+	background-color: white;
+	color: black;
+	padding: 1rem;
+	/*border: 1px solid gray;*/
+	text-align: center;
+}
+
+.cards {
+	max-width: 1200px;
+	margin: 30px auto;
+	display: grid;
+	grid-gap: 1rem;
+}
+
+/* Screen larger than 800px? 2 column */
+@media (min-width: 800px) {
+	.cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 1200px? 3 columns */
+@media (min-width: 1200px) {
+	.cards { grid-template-columns: repeat(3, 1fr); }
+}
