@@ -35,12 +35,27 @@ button.navbar-toggler {
 	text-align: center;
 }
 
+
 .cards {
 	max-width: 1200px;
 	margin: 30px auto;
 	display: grid;
 	grid-gap: 1rem;
 }
+
+.hero-img {
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	max-width: 400px;
+  	border-radius: 15px;
+  	border: 3px solid white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 
 /* Screen larger than 800px? 2 column */
 @media (min-width: 800px) {
@@ -50,4 +65,22 @@ button.navbar-toggler {
 /* Screen larger than 1200px? 3 columns */
 @media (min-width: 1200px) {
 	.cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+.cards-1 {
+	max-width: 1200px;
+	margin: 30px auto;
+	display: grid;
+	grid-gap: 1rem;
+}
+
+/* Screen larger than 800px? 2 column */
+@media (min-width: 800px) {
+	.cards-1 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 1200px? 3 columns */
+@media (min-width: 1200px) {
+	.cards-1 { grid-template-columns: repeat(2, 1fr); }
 }
