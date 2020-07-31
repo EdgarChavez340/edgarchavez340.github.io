@@ -62,10 +62,10 @@ button.navbar-toggler {
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img-sizer
+
 
 /* Screen larger than 800px? 2 column */
-@media (min-width: 800px) {
+@media (min-width: 765px) {
 	.cards { grid-template-columns: repeat(2, 1fr); }
 }
 
